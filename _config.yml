@@ -312,3 +312,8 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# custom feed
+feed:
+  path: feed.xml
+  limits: 50
