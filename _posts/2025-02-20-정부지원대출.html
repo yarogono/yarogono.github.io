@@ -10,7 +10,7 @@ tag: [정부지원금, 정부지원, 대출, 정부지원 대출, 정부지원�
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Easy Spoon</title>
+    <title>정부지원 대출 안내</title>
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/a076d05399.js"
@@ -31,13 +31,12 @@ tag: [정부지원금, 정부지원, 대출, 정부지원 대출, 정부지원�
         justify-content: space-between;
         align-items: center;
         padding: 15px 50px;
-        background-color: #fff;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        background-color: #0056b3;
+        color: white;
       }
       .logo {
         font-size: 24px;
         font-weight: bold;
-        color: #333;
       }
       nav ul {
         list-style: none;
@@ -46,16 +45,13 @@ tag: [정부지원금, 정부지원, 대출, 정부지원 대출, 정부지원�
       }
       nav ul li a {
         text-decoration: none;
-        color: #333;
+        color: white;
         font-size: 16px;
       }
-      .cart {
-        font-size: 20px;
-        cursor: pointer;
-      }
+
       .banner {
-        background: url("banner.jpg") no-repeat center center/cover;
-        height: 300px;
+        background: url("loan-banner.jpg") no-repeat center center/cover;
+        height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -64,38 +60,44 @@ tag: [정부지원금, 정부지원, 대출, 정부지원 대출, 정부지원�
       }
       .banner-text h1 {
         font-size: 36px;
+        color: black;
         font-weight: bold;
       }
-      .products {
-        text-align: center;
+
+      .banner-text p {
+        color: black;
+        font-weight: bold;
+      }
+
+      .content {
         padding: 50px;
+        text-align: center;
       }
-      .product-list {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-      }
-      .product-item {
-        background: white;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      }
-      .product-item img {
-        width: 150px;
-        height: 150px;
-        border-radius: 10px;
-      }
-      .product-item p {
-        margin-top: 10px;
-        font-size: 18px;
+      .content h2 {
+        margin-bottom: 20px;
         color: #333;
       }
-      .product-item span {
-        font-size: 16px;
-        color: #e67e22;
+      .content p {
+        font-size: 18px;
+        color: #555;
+      }
+      .cta {
+        margin-top: 30px;
+      }
+      .cta a {
+        text-decoration: none;
+        background-color: #ff6600;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: bold;
       }
       footer {
+        height: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         padding: 20px;
         background-color: #333;
@@ -104,53 +106,74 @@ tag: [정부지원금, 정부지원, 대출, 정부지원 대출, 정부지원�
     </style>
   </head>
   <body>
-    <!-- 네비게이션 바 -->
     <header>
-      <div class="logo">Easy Spoon</div>
+      <div class="logo">정부지원 대출 안내</div>
       <nav>
-        <ul>
-          <li><a href="#">홈</a></li>
-          <li><a href="#">메뉴</a></li>
-          <li><a href="#">이벤트</a></li>
-          <li><a href="#">고객센터</a></li>
-        </ul>
+        <!-- <ul>
+                <li><a href="#">대출 종류</a></li>
+            </ul> -->
       </nav>
-      <div class="cart"><i class="fas fa-shopping-cart"></i></div>
     </header>
 
-    <!-- 메인 배너 -->
     <section class="banner">
       <div class="banner-text">
-        <h1>쉽고 빠른 집밥, Easy Spoon</h1>
-        <p>간편하고 맛있는 한 끼를 경험해보세요!</p>
+        <h1>정부지원 대출을 쉽고 빠르게</h1>
+        <p>정부가 지원하는 다양한 대출 혜택을 알아보세요.</p>
       </div>
     </section>
 
-    <!-- 추천 상품 섹션 -->
-    <section class="products">
-      <h2>추천 메뉴</h2>
-      <div class="product-list">
-        <div class="product-item">
-          <img src="image1.jpg" alt="상품 1" />
-          <p>상품 이름 1</p>
-          <span>₩10,000</span>
-        </div>
-        <div class="product-item">
-          <img src="image2.jpg" alt="상품 2" />
-          <p>상품 이름 2</p>
-          <span>₩12,000</span>
-        </div>
-        <div class="product-item">
-          <img src="image3.jpg" alt="상품 3" />
-          <p>상품 이름 3</p>
-          <span>₩15,000</span>
-        </div>
+    <section class="content">
+      <h2>정부지원 대출이란?</h2>
+      <p>
+        정부에서 운영하는 서민, 창업자, 중소기업을 위한 대출 프로그램입니다.
+      </p>
+      <h2>주요 대출 종류</h2>
+      <div class="cta">
+        <a
+          href="https://antstudy.tistory.com/entry/%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EB%94%94%EB%94%A4%EB%8F%8C%EB%8C%80%EC%B6%9C-2025%EB%85%84-%EC%B5%9C%EC%8B%A0-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%A1%B0%EA%B1%B4%C2%B7%ED%95%9C%EB%8F%84%C2%B7%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+          target="_blank"
+          >신혼부부 디딤돌 대출</a
+        >
+      </div>
+      <div class="cta">
+        <a
+          href="https://antstudy.tistory.com/entry/%EC%8B%A0%ED%95%9C%EC%9D%80%ED%96%89-%EB%94%94%EB%94%A4%EB%8F%8C%EB%8C%80%EC%B6%9C-%EB%82%B4-%EC%A7%91-%EB%A7%88%EB%A0%A8%EC%9D%98-%EC%B2%AB%EA%B1%B8%EC%9D%8C"
+          target="_blank"
+          >신한은행 디딤돌 대출</a
+        >
+      </div>
+      <div class="cta">
+        <a
+          href="https://antstudy.tistory.com/entry/%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%B1%85%ED%81%AC-%EB%B9%84%EC%83%81%EA%B8%88%EB%8C%80%EC%B6%9C-%EA%B0%84%ED%8E%B8%ED%95%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%86%8C%EC%95%A1-%EB%8C%80%EC%B6%9C-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+          target="_blank"
+          >카카오뱅크 디딤돌 대출</a
+        >
+      </div>
+      <div class="cta">
+        <a
+          href="https://antstudy.tistory.com/entry/%EB%B2%84%ED%8C%80%EB%AA%A9%EC%A0%84%EC%84%B8%EB%8C%80%EC%B6%9C-2025%EB%85%84-%EC%B5%9C%EC%8B%A0-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%A1%B0%EA%B1%B4-%ED%95%9C%EB%8F%84-%EC%8B%A0%EC%B2%AD-%EB%B0%A9%EB%B2%95-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+          target="_blank"
+          >버팀목전세대출</a
+        >
+      </div>
+      <div class="cta">
+        <a
+          href="https://antstudy.tistory.com/entry/%EB%94%94%EB%94%A4%EB%8F%8C%EB%8C%80%EC%B6%9C-%EC%83%9D%EC%95%A0%EC%B5%9C%EC%B4%88-%EB%82%B4-%EC%A7%91-%EB%A7%88%EB%A0%A8-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EC%84%A0%ED%83%9D-%EC%A1%B0%EA%B1%B4-%ED%95%9C%EB%8F%84-%EA%B8%88%EB%A6%AC-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+          target="_blank"
+          >디딤돌대출 생애최초</a
+        >
+      </div>
+      <div class="cta">
+        <a
+          href="https://antstudy.tistory.com/entry/%EB%94%94%EB%94%A4%EB%8F%8C%EB%8C%80%EC%B6%9C-%EA%B3%84%EC%82%B0%EA%B8%B0-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%8C%80%EC%B6%9C-%ED%95%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0"
+          target="_blank"
+          >디딤돌대출 계산기</a
+        >
       </div>
     </section>
 
-    <!-- 푸터 -->
     <footer>
-      <p>&copy; 2025 Easy Spoon. All rights reserved.</p>
+      <p>&copy; 2025 정부지원 대출 안내. All rights reserved.</p>
     </footer>
   </body>
 </html>
