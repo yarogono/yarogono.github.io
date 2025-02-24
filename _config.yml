@@ -315,5 +315,5 @@ defaults:
       related: true
 # custom feed
 feed:
-  path: feed.xml
+  path: rss.xml
   limits: 50
