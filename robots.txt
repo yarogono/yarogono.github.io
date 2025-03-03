@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /temp/
 
-Sitemap: https://yarogono.github.io/sitemap.xml
+Sitemap: https://yaro.co.kr/sitemap.xml
